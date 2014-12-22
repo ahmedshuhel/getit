@@ -1,0 +1,3 @@
+- As a `requester` I want to request something to any of my people so that my pepole can see my request.
+- As a `requester` I should be able to remove any pending request.
+- As a `request receiver` I want to see all the pending requests from my `peers`.
