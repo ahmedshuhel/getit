@@ -9,6 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetIt.Test", "GetIt.Test\Ge
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectManagement", "ProjectManagement", "{38E7F402-EFD1-4F24-AF58-2FBDE4183652}"
 	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
 		UserStory.md = UserStory.md
 	EndProjectSection
 EndProject

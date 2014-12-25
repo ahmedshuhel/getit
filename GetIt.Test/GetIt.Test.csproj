@@ -45,11 +45,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="When_Requesting_Something.cs" />
+    <Compile Include="Given_pending_tasks.cs" />
+    <Compile Include="Given_pending_requests_from_peer.cs" />
+    <Compile Include="When_Requesting_to_peer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GetIt.Core\GetIt.Core.csproj">
+      <Project>{34A6E57C-664E-498F-AF29-4B2BE690A09B}</Project>
+      <Name>GetIt.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
